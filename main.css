@@ -43,5 +43,9 @@ body {
 }
 
 .convertButton {
-    
+    margin-top: 2em;
+}
+
+.resetButton {
+    margin: auto;
 }

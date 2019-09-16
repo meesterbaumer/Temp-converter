@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Temp Converter</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
 </head>
-<body>
-<!-- Main Container -->
-        <div class="container"> 
-<!-- Title             -->
-            <div class="title">
-                    <h1 class="display-5" >Temperature Converter</h1>
-            </div>
 
-            <div class="row">
- <!-- Left Side -->
-                <div class="col-6 currentTemp">
-                    <h4>Enter Current Temp</h4>
-                    <div class="row">
-                        <div class="col-6">
-                            <input class="tempEntry" type="number">
+<body>
+    
+    <div class="container"> <!-- Main Container -->
+        
+        <div class="title"> <!-- Page Title -->
+            <h1 class="display-5">Temperature Converter</h1>
+        </div>
+
+        <div class="row">
+            <!-- Left Side -->
+            <div class="col-6 currentTemp">
+                <h4>Enter Current Temp</h4>
+                <div class="row">
+                    <div class="col-6">
+                        <input class="tempEntry" type="number">
+                    </div>
+                    <!-- Radio Buttons                    -->
+                    <div class="radioButtons col-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="fahrenheit"
+                                value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Fahrenheit</label>
                         </div>
- <!-- Radio Buttons                    -->
-                        <div class="radioButtons col-6">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="fahrenheit" value="option1">
-                                <label class="form-check-label" for="inlineRadio1">Fahrenheit</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="celcius" value="option2">
-                                <label class="form-check-label" for="inlineRadio2">Celcius</label>
-                            </div>
-                        </div>
-<!-- Convert Button -->
-                        <div class="convertButton d-flex justify-content-center">
-                            <button>Convert My Temp!</button>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="celcius"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Celcius</label>
                         </div>
                     </div>
+                    <!-- Convert Button -->
                 </div>
-<!-- Right Side -->
-                <div class="col-6">
-                    <h1>hi</h1>
+                <div class="convertButton d-flex justify-content-center">
+                    <button>Convert My Temp!</button>
                 </div>
-
             </div>
-
-            <div class="row">
+            <!-- Right Side -->
+            <div class="col-6">
                 <h1>hi</h1>
             </div>
 
         </div>
-    
+        
+            <div class>
+                <button class="row align-items-center resetButton">Reset</button>
+            </div>
+        
+    </div>
+
+
     <script src="./main.js"></script>
 </body>
+
 </html>
