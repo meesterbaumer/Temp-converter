@@ -49,3 +49,11 @@ body {
 .resetButton {
     margin: auto;
 }
+.output {
+    background-color: aqua;
+    text-align: center;
+}
+.rightContainer {
+    margin: 40px;
+    border: solid 2px
+}
