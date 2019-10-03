@@ -56,5 +56,10 @@ body {
 }
 .rightContainer {
     margin: 40px;
-    border: solid 2px
+    border: solid 2px;
+    
+}
+.outputResult {
+    text-align: center;
+    font-size: 3em;
 }
