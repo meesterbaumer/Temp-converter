@@ -1,11 +1,9 @@
 # Temp Converter
 
 ## Description
-Use this application to select sandwich toppings and price out your order. 
+Use this application to convert temps between Fahrenheit and Celcius. 
 
 ## Screenshots
-
-
 
 
 ## How To Run
