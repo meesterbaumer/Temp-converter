@@ -60,5 +60,5 @@ const resetPressed = () => {
 }
 
 button.addEventListener("click", formulaChooser);
-startTemp.addEventListener("keypress", formulaChooser);
+startTemp.addEventListener("keypress", enterPressed);
 reset.addEventListener("click", resetPressed);
