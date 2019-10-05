@@ -3,7 +3,7 @@ const celsiusSelected = document.getElementById("celcius")
 const button = document.getElementById('convertButton')
 const reset = document.getElementById('reset')
 const startTemp = document.getElementById('startTemp')
-
+const output = document.getElementById('output')
 
 const printToDom = (DivID,textToPrint) => {
     document.getElementById(DivID).innerHTML = textToPrint
@@ -55,9 +55,10 @@ const enterPressed = (e) => {
 }
 
 const resetPressed = () => {
-    startTemp.innerHTML = " "
+    startTemp.value = ""
+    output.innerHTML = ""
 }
 
 button.addEventListener("click", formulaChooser);
-startTemp.addEventListener("keypress", formulaChooser);
+startTemp.addEventListener("keypress", enterPressed);
 reset.addEventListener("click", resetPressed);
